@@ -1,13 +1,25 @@
+html {
+    height: 100%;  /* So that the background image goes down to the bottom */
+}
+
 body {
-    background-image: url('../images/background.jpg');
-    background-size: cover;
+    background: url('../images/background.jpg');
+    background-size: auto 100%;  /* So that the background image goes down to the bottom */
     background-repeat: no-repeat;
+    background-position: 65%;  /* So that the background image displays me, even on phones */
+}
+
+/* Wider than the background image */
+@media (min-width: 600px) {
+    body {
+        background-position: 50%;  /* Makes sure it's in the middle */
+    }
 }
 
 #main-column {
     margin-top: 20%;
     padding: 10%;
-    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.3));
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0.7));
 }
 
 p {
