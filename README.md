@@ -1,2 +1,2 @@
 # [klaasgoethals.be](https://klaasgoethals.be)
-A simple, personal website using [Skeleton](https://github.com/dhg/Skeleton).
+A simple, personal website with css help from [Skeleton](https://github.com/dhg/Skeleton).
