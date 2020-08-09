@@ -4,20 +4,26 @@ html {
 
 body {
     background: url('../images/background.jpg');
-    background-size: auto 100%;  /* So that the background image goes down to the bottom */
+    background-size: auto cover;  /* So that the background image goes down to the bottom */
     background-repeat: no-repeat;
     background-position: 65%;  /* So that the background image displays me on phones */
 }
 
+@media (min-height: 1000px) {
+    body {
+        background-size: cover;
+    }
+}
+
 @media (min-width: 800px) {
     body {
-        background-position: 50%;  /* Makes sure it's in the middle */
+        background-position: 50% auto;  /* Makes sure it's in the middle */
     }
 }
 
 @media (min-width: 1000px) {
     body {
-        background-size: cover;  /* So that the background image goes down to the bottom */
+        background-size: cover;
     }
 }
 
@@ -25,6 +31,19 @@ body {
     margin-top: 20%;
     padding: 10%;
     background-image: linear-gradient(white, rgba(255, 255, 255, 0.7));
+}
+
+#bottom-column {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 1.7em;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: rgba(255, 255, 255, 0.7);/* linear-gradient(white, rgba(255, 255, 255, 0.7)); */
+}
+
+a {
+    color: #10198f;
 }
 
 p {
