@@ -1,3 +1,10 @@
+/* --- */
+/* Override Skeleton */
+.container {
+    max-width: 650px;
+}
+/* --- */
+
 html {
     height: 100%;  /* So that the background image goes down to the bottom */
 }

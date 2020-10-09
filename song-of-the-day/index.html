@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Welcome | Klaas Goethals</title>
+  <title>Song Of The Day | Klaas Goethals</title>
   <!-- <meta name="description" content=""> -->
-  <meta name="author" content="Klaas Goethals">
+  <!-- <meta name="author" content="Klaas Goethals"> -->
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -19,13 +19,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="songoftheday.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 <body>
@@ -33,26 +33,37 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
+    <section class="header">
+      <h2 class="title">Song of the day</h2>
+      <h4 class="author"><a href="/index.html">Klaas Goethals</a></h4>
+    </section>
     <div class="row">
-      <div class="twelve columns" id="main-column">
-        <h2>Hi, I'm Klaas Goethals</h2>
-        <p>I was born in Belgium around <span id="age">20</span> years ago.</p>
-        <p>I like doing stuff with computers, mostly software.
-          That's why I am going for a
-          <a href="https://studiekiezer.ugent.be/master-of-science-in-computer-science" target="_blank" rel="noopener noreferrer">Master of Science in Computer Science</a>
-          at <a href="https://ugent.be/en" target="_blank" rel="noopener noreferrer">UGent</a>.</p>
+      <div class="twelve columns" id="head-song">
+        <h1>10 october <small><small>2020</small></small></h1>
+        <p>Starting with a banger. Brings me in a good mood.</p>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/QP-UwvGclDI"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="twelve columns" id="bottom-column">
-        <p>Find me on <a href="https://github.com/klaasg" target="_blank" rel="noopener noreferrer">Github</p>
+    <!-- <div class="row">
+      <div class="nine columns" id="song">
+        <h2>9 october <small><small>2020</small></small></h2>
+        <p>Starting with a banger. Brings me in a good mood.</p>
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/QP-UwvGclDI"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
       </div>
-    </div>
+    </div> -->
   </div>
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/index.js"></script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

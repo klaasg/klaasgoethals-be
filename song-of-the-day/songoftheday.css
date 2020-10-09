@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+.title {
+    padding: 2%;
+    color: rgb(209, 134, 91);
+    display: inline-block;
+}
+
+.author {
+    float: right;
+    margin-top: 5%;
+    /* display: inline-block; */
+}
+
+.author a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.author a:hover {
+    text-decoration: underline;
+}
+
+#head-song {
+    margin-top: 5%;
+    padding: 5%;
+    background-image: linear-gradient(rgba(209, 134, 91, 0.7), rgba(211, 151, 116, 0.4));
+}
+
+#head-song p {
+    font-size: x-large;
+}
+
+#song {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-image: linear-gradient(rgb(170, 170, 170), rgb(200, 200, 200));
+}
+
+#song p {
+    font-size: large;
+}
+
+/* The following two blocks were copied from https://stackoverflow.com/questions/38270661/displaying-a-youtube-video-with-iframe-full-width-of-page */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
