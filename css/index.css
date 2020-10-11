@@ -34,23 +34,34 @@ body {
     }
 }
 
-#main-column {
-    margin-top: 20%;
-    padding: 10%;
-    background-image: linear-gradient(white, rgba(255, 255, 255, 0.7));
-}
-
-#bottom-column {
-    margin-top: 10%;
-    margin-bottom: 10%;
+.columns {
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding-top: 1.7em;
     padding-left: 10%;
     padding-right: 10%;
-    background: rgba(255, 255, 255, 0.7);/* linear-gradient(white, rgba(255, 255, 255, 0.7)); */
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#main-column {
+    margin-top: 20%;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    background: linear-gradient(white, rgba(255, 255, 255, 0.7));
+}
+
+#link-column {
+    text-align: center;
 }
 
 a {
     color: #10198f;
+}
+
+a.external {
+    background: url('../images/external_link.svg') top right no-repeat;
+    background-size: 11px;
+    padding-right: 11.5px;
 }
 
 p {
