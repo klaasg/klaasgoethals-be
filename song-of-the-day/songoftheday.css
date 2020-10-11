@@ -23,24 +23,24 @@ body {
     text-decoration: underline;
 }
 
-#head-song {
+.head-song {
     margin-top: 5%;
     padding: 5%;
     background-image: linear-gradient(rgba(209, 134, 91, 0.7), rgba(211, 151, 116, 0.4));
 }
 
-#head-song p {
+.head-song p {
     font-size: x-large;
 }
 
-#song {
+.song {
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;
     background-image: linear-gradient(rgb(170, 170, 170), rgb(200, 200, 200));
 }
 
-#song p {
+.song p {
     font-size: large;
 }
 
